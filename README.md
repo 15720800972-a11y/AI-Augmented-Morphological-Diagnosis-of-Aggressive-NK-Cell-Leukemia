@@ -28,11 +28,3 @@ The system is designed to handle label scarcity in medical imaging by leveraging
     *Required packages: `torch`, `torchvision`, `numpy`, `pandas`, `scikit-learn`, `matplotlib`, `seaborn`, `Pillow`, `tqdm`.*
 
 ---
-
-## 📂 1. Self-Supervised Pre-training (MoCo)
-
-Train the ResNet50 encoder on unlabeled data to learn visual representations.
-
-### Usage
-```bash
-python train_moco.py --data_path ./dataset/unlabeled_images --epochs 200
